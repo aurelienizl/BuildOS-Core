@@ -1,0 +1,3 @@
+buildos:
+  exec_cmd: [echo wrapped]
+exec_cmd: [echo outside]

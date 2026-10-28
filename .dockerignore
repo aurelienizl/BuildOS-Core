@@ -1,0 +1,11 @@
+.git
+.devcontainer
+# Deployment profiles are external inputs, never build or test assets.
+/profile/
+buildos
+buildos.tmp
+script.sh
+/coverage/
+*.test
+*.out
+.env

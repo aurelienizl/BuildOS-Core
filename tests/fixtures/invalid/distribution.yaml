@@ -1,0 +1,3 @@
+base:
+  distribution: fedora
+  release: '40'

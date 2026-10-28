@@ -1,0 +1,2 @@
+exec_cmd:
+  - printf 'hello\n' > '__WORK__/output'

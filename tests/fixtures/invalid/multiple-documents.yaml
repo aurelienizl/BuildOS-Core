@@ -1,0 +1,3 @@
+exec_cmd: [echo first]
+---
+exec_cmd: [echo second]

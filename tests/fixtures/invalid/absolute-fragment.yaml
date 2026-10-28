@@ -1,0 +1,2 @@
+base:
+  include: [/tmp/fragment.yaml]

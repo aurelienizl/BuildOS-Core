@@ -1,0 +1,15 @@
+buildos:
+  version: 1
+  base:
+    include: [fragments/first.yaml, fragments/second.yaml]
+  exec_cmd:
+    - printf 'main-1\n' >> "$TRACE"
+    - printf 'main-2\n' >> "$TRACE"
+  packages:
+    clean: true
+  exec_cmd:
+    - printf 'main-3\n' >> "$TRACE"
+  packages:
+    clean: true
+  base:
+    include: [fragments/second.yaml]

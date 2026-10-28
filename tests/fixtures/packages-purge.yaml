@@ -1,0 +1,10 @@
+packages:
+  install: [hello]
+exec_cmd:
+  - command -v hello
+packages:
+  purge: [hello, buildos-deliberately-absent-test-package]
+exec_cmd:
+  - if command -v hello; then exit 1; fi
+packages:
+  purge: [hello]

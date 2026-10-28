@@ -1,0 +1,3 @@
+base:
+  distribution: __DISTRIBUTION__
+  release: '__RELEASE__'

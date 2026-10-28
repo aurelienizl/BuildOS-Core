@@ -1,0 +1,4 @@
+base:
+  include: [nested/child.yaml]
+exec_cmd:
+  - printf 'first\n' >> "$TRACE"

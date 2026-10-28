@@ -1,0 +1,9 @@
+files:
+  - name: copy
+    source: __WORK__/source
+    destination: __WORK__/output/file
+    checksum: __CHECKSUM__
+    mode: '640'
+    owner: nobody
+    group: nogroup
+    exec: pwd > cwd

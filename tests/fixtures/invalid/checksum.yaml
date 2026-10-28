@@ -1,0 +1,4 @@
+files:
+  - source: /target/source
+    destination: /target/destination
+    checksum: bad

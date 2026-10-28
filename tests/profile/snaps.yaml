@@ -1,0 +1,4 @@
+snaps:
+  - name: example
+    assert: __URL__/assert
+    snap: __URL__/snap

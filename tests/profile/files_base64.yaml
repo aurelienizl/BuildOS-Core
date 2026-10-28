@@ -1,0 +1,8 @@
+files_base64:
+  - name: inline-base64
+    destination: __WORK__/output/file
+    content: aGVsbG8K
+    mode: '640'
+    owner: nobody
+    group: nogroup
+    exec: pwd > cwd

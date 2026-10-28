@@ -1,0 +1,4 @@
+files_base64:
+  - destination: /tmp/file
+    content: aGVsbG8=
+    source: /tmp/source

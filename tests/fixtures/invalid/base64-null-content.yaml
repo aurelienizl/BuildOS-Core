@@ -1,0 +1,3 @@
+files_base64:
+  - destination: /tmp/file
+    content: null

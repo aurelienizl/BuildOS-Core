@@ -1,0 +1,3 @@
+packages:
+  extra_args: --no-install-recommends
+  install: [hello]

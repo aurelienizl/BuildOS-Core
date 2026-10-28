@@ -1,0 +1,2 @@
+exec_cmd:
+  - printf 'second\n' >> "$TRACE"

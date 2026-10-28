@@ -1,0 +1,3 @@
+packages: &packages
+  clean: true
+packages: *packages

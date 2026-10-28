@@ -1,0 +1,10 @@
+/buildos
+/buildos.tmp
+/script.sh
+/coverage/
+# Local deployment profiles belong in a separate private repository.
+/profile/
+*.test
+*.out
+.env
+buildos

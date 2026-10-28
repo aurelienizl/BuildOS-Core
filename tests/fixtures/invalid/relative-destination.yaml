@@ -1,0 +1,4 @@
+files:
+  - source: /source
+    destination: relative/path
+    checksum: sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

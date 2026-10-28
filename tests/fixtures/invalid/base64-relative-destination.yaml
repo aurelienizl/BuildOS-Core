@@ -1,0 +1,3 @@
+files_base64:
+  - destination: relative/file
+    content: aGVsbG8=

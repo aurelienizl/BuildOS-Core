@@ -1,0 +1,19 @@
+{
+  "name": "BuildOS — Go + Docker",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:4": {}
+  },
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "openai.chatgpt",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+files_text:
+  - name: inline-text
+    destination: __WORK__/output/file
+    content: |+
+      hello 'world' "quoted" $HOME $(touch __WORK__/injected) `false` %s \c
+      Café — BuildOS
+
+    mode: '640'
+    owner: nobody
+    group: nogroup
+    exec: pwd > cwd
+  - name: empty
+    destination: __WORK__/empty
+    content: ''
+  - name: no-newline
+    destination: __WORK__/no-newline
+    content: hello

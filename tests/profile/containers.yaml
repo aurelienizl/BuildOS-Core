@@ -1,0 +1,4 @@
+containers:
+  - name: example
+    source: __URL__/archive
+    checksum: __CHECKSUM__
